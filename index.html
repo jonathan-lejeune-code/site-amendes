@@ -10,7 +10,9 @@
 </head>
 
 <body>
-  <table class="tftable" border="1">
+  <!-- Tableau n°1 -->
+
+  <table class="tftable1" border="1">
 
     <th>Code de la Route</th>
 
@@ -26,21 +28,24 @@
       <td class="c1">Phare HS</td>
       <td class="c2">2 500$</td>
       <td class="c3">Doubler si résidive/journée</td>
-      <td class="c4">Cliquez Ajoutez</td>
+      <td><input type="checkbox" class="Montants" id="phare" value="2500">
+        <label for="phare">Ajouter</label></td>
     </tr>
 
     <tr>
       <td class="c1">Distance de sécurité</td>
       <td class="c2">3 000$</td>
       <td class="c3">/</td>
-      <td class="c4">Cliquez Ajoutez</td>
+      <td><input type="checkbox" class="Montants" id="Distance" value="3000">
+        <label for="Distance">Ajouter</label></td>
     </tr>
 
     <tr>
       <td class="c1">Stationnement Génant</td>
       <td class="c2">10 000$</td>
       <td class="c3">Fouriére</td>
-      <td class="c4">Cliquez Ajoutez</td>
+       <td><input type="checkbox" class="Montants" id="Stationnement" value="10000">
+        <label for="Stationnement">Ajouter</label></td>
 
     </tr>
 
@@ -48,7 +53,8 @@
       <td class="c1">Usage abusif du Klaxon</td>
       <td class="c2">5 000$</td>
       <td class="c3">Doubler si résidive/journée</td>
-      <td class="c4">Cliquez Ajoutez</td>
+       <td><input type="checkbox" class="Montants" id="Klaxon" value="5000">
+        <label for="Klaxon">Ajouter</label></td>
 
     </tr>
 
@@ -56,7 +62,8 @@
       <td class="c1">Franchissement de ligne continue</td>
       <td class="c2">2 000$</td>
       <td class="c3">/</td>
-      <td class="c4">Cliquez Ajoutez</td>
+       <td><input type="checkbox" class="Montants" id="ligne" value="2000">
+        <label for="ligne">Ajouter</label></td>
 
     </tr>
 
@@ -64,7 +71,8 @@
       <td class="c1">Sens interdit</td>
       <td class="c2">3 000$</td>
       <td class="c3">/</td>
-      <td class="c4">Cliquez Ajoutez</td>
+       <td><input type="checkbox" class="Montants" id="interdit" value="3000">
+        <label for="interdit">Ajouter</label></td>
 
     </tr>
 
@@ -72,7 +80,8 @@
       <td class="c1">Dépassement dangereux</td>
       <td class="c2">4 000$</td>
       <td class="c3">/</td>
-      <td class="c4">Cliquez Ajoutez</td>
+       <td><input type="checkbox" class="Montants" id="Dépassement" value="4000">
+        <label for="Dépassement">Ajouter</label></td>
 
     </tr>
 
@@ -80,7 +89,8 @@
       <td class="c1">Circulation en contre sens</td>
       <td class="c2">7 500$</td>
       <td class="c3">Fouriére + Doubler si résidive/journée</td>
-      <td class="c4">Cliquez Ajoutez</td>
+       <td><input type="checkbox" class="Montants" id="contre" value="7500">
+        <label for="contre">Ajouter</label></td>
 
     </tr>
 
@@ -88,7 +98,8 @@
       <td class="c1">Couduite sous Drogue</td>
       <td class="c2">4 000$</td>
       <td class="c3">Fouriére</td>
-      <td class="c4">Cliquez Ajoutez</td>
+       <td><input type="checkbox" class="Montants" id="Drogue" value="4000">
+        <label for="Drogue">Ajouter</label></td>
 
     </tr>
 
@@ -96,7 +107,8 @@
       <td class="c1">Circulation Hors Route</td>
       <td class="c2">3 000$</td>
       <td class="c3">Fouriére + Doubler si résidive/journée</td>
-      <td class="c4">Cliquez Ajoutez</td>
+       <td><input type="checkbox" class="Montants" id="hors" value="3000">
+        <label for="hors">Ajouter</label></td>
 
     </tr>
 
@@ -104,7 +116,8 @@
       <td class="c1">Arret dangereux sur autoroute</td>
       <td class="c2">2 500$</td>
       <td class="c3">Fouriére</td>
-      <td class="c4">Cliquez Ajoutez</td>
+       <td><input type="checkbox" class="Montants" id="arret" value="2500">
+        <label for="arret">Ajouter</label></td>
 
     </tr>
 
@@ -112,7 +125,8 @@
       <td class="c1">Non respect de feu rouge/stop</td>
       <td class="c2">3 500$</td>
       <td class="c3">Doubler si résidive/journée</td>
-      <td class="c4">Cliquez Ajoutez</td>
+       <td><input type="checkbox" class="Montants" id="feu" value="3500">
+        <label for="feu">Ajouter</label></td>
 
     </tr>
 
@@ -120,7 +134,8 @@
       <td class="c1">Véhicule endommagé</td>
       <td class="c2">4 000$</td>
       <td class="c3">Fouriére</td>
-      <td class="c4" <a href=""> Cliquez Ajoutez</td>
+      <td><input type="checkbox" class="Montants" id="endommagé" value="4000">
+        <label for="endommagé">Ajouter</label></td>
 
 
     </tr>
@@ -129,29 +144,204 @@
       <td class="c1">Conduite dangereuse</td>
       <td class="c2">12 000$</td>
       <td class="c3">Fouriére</td>
-      <td class="c4">Cliquez Ajoutez</td>
+       <td><input type="checkbox" class="Montants" id="danger" value="12000">
+        <label for="danger">Ajouter</label></td>
     </tr>
 
     <tr>
       <td class="c1">Conduite sans permis</td>
       <td class="c2">15 000$</td>
       <td class="c3">Fouriére + Doubler si résidive/journée</td>
-      <td class="c4">Cliquez Ajoutez</td>
+       <td><input type="checkbox" class="Montants" id="permis" value="15000">
+        <label for="permis">Ajouter</label></td>
     </tr>
 
     <tr>
       <td class="c1">Conduite sans Casque</td>
       <td class="c2">7 500$</td>
       <td class="c3">/</td>
-      <td class="c4">Cliquez Ajoutez</td>
+       <td><input type="checkbox" class="Montants" id="casque" value="7500">
+        <label for="casque">Ajouter</label></td>
     </tr>
 
   </table>
 
-  <div class="Total">
-    <label for="Total"> Total</label>
-    <input type="text" id="Total" />
+  <!-- tableau n°2 -->
+  <table class="tftable2" border="1">
+
+    <th>Délits Mineurs</th>
+
+    <tr>
+      <td class="c1">Délits</td>
+      <td class="c2">Montants</td>
+      <td class="c3">Ajouter</td>
+      <td class="c4">Cliquez Ajoutez</td>
+
+    </tr>
+
+    <tr>
+      <td class="c1">Harcélement</td>
+      <td class="c2">15 000$</td>
+      <td class="c3">15 Min GAV</td>
+      <td><input type="checkbox" class="Montants" id="Harcélement" value="15000">
+        <label for="Harcélement">Ajouter</label></td>
+    </tr>
+
+    <tr>
+      <td class="c1">Entrave a une opération de police</td>
+      <td class="c2">15 000$</td>
+      <td class="c3">30 Min GAV / si résidive/journée</td>
+      <td><input type="checkbox" class="Montants" id="entrave" value="15000">
+        <label for="entrave">Ajouter</label></td>
+    </tr>
+
+    <tr>
+      <td class="c1">Provocation envers LSPD/EMS</td>
+      <td class="c2">10 000$</td>
+      <td class="c3">25 Min GAV</td>
+       <td><input type="checkbox" class="Montants" id="Provocation" value="10000">
+        <label for="Provocation">Ajouter</label></td>
+
+    </tr>
+
+    <tr>
+      <td class="c1">Rébelion</td>
+      <td class="c2">7 500$</td>
+      <td class="c3">15 Min GAV</td>
+       <td><input type="checkbox" class="Montants" id="Rébelion" value="7500">
+        <label for="Rébelion">Ajouter</label></td>
+
+    </tr>
+
+    <tr>
+      <td class="c1">Déstruction de biens</td>
+      <td class="c2">10 000$</td>
+      <td class="c3">Prix Réparation</td>
+       <td><input type="checkbox" class="Montants" id="Déstruction" value="10000">
+        <label for="Déstruction">Ajouter</label></td>
+
+    </tr>
+
+    <tr>
+      <td class="c1">Manifestation Illicite</td>
+      <td class="c2"> 15 000$</td>
+      <td class="c3">30mn GAV</td>
+       <td><input type="checkbox" class="Montants" id="Manifestation" value="15000">
+        <label for="Manifestation">Ajouter</label></td>
+
+    </tr>
+
+    <tr>
+      <td class="c1">Délit de fuite</td>
+      <td class="c2">20 000$</td>
+      <td class="c3">Retrait permis + Fourrière + Amende doublé de l’excès de vitesse + 15mn GAV</td>
+       <td><input type="checkbox" class="Montants" id="Dépassement" value="20000">
+        <label for="Dépassement">Ajouter</label></td>
+
+    </tr>
+
+    <tr>
+      <td class="c1">Atteinte aux Mort</td>
+      <td class="c2">15 000$</td>
+      <td class="c3">20 Min GAV</td>
+       <td><input type="checkbox" class="Montants" id="Atteinte" value="15000">
+        <label for="Atteinte">Ajouter</label></td>
+
+    </tr>
+
+    <tr>
+      <td class="c1">Menaces</td>
+      <td class="c2">25 000$</td>
+      <td class="c3">30 MIN GAV</td>
+       <td><input type="checkbox" class="Montants" id="Menaces" value="25000">
+        <label for="Menaces">Ajouter</label></td>
+
+    </tr>
+
+    <tr>
+      <td class="c1">Dissimulation de Visage</td>
+      <td class="c2">20 000$</td>
+      <td class="c3">Par récidive = +30 Min GAV</td>
+       <td><input type="checkbox" class="Montants" id="Dissimulation" value="20000">
+        <label for="Dissimulation">Ajouter</label></td>
+
+    </tr>
+
+    <tr>
+      <td class="c1">Violences Verbales</td>
+      <td class="c2">Par insulte = +10 000$</td>
+      <td class="c3">Par récidive = +45 Min</td>
+       <td><input type="checkbox" class="Montants" id="insulte" value="10000">
+        <label for="insulte">Ajouter</label></td>
+
+    </tr>
+
+    <tr>
+      <td class="c1">Trouble a l'ordre public</td>
+      <td class="c2">15 000$</td>
+      <td class="c3">30 Min GAV</td>
+       <td><input type="checkbox" class="Montants" id="Trouble" value="15000">
+        <label for="Trouble">Ajouter</label></td>
+
+    </tr>
+
+    <tr>
+      <td class="c1">Exhibition D'armes</td>
+      <td class="c2"> 25 000$</td>
+      <td class="c3">PPA + Armes retiré si récidive dans la même journée</td>
+      <td><input type="checkbox" class="Montants" id="Exhibition" value="25000">
+        <label for="Exhibition">Ajouter</label></td>
+
+
+    </tr>
+
+    <tr>
+      <td class="c1">Utilisation d'arme non conforme</td>
+      <td class="c2">35 000$</td>
+      <td class="c3">PPA + Armes retiré si récidive dans la même journée</td>
+       <td><input type="checkbox" class="Montants" id="Utilisation" value="35000">
+        <label for="Utilisation">Ajouter</label></td>
+    </tr>
+
+    <tr>
+      <td class="c1">Faux Appels (Canulars)</td>
+      <td class="c2">15 000$</td>
+      <td class="c3">15 Min GAV</td>
+       <td><input type="checkbox" class="Montants" id="permis" value="15000">
+        <label for="permis">Ajouter</label></td>
+    </tr>
+
+    <tr>
+      <td class="c1">Violation de propriété privée</td>
+      <td class="c2">20 000$</td>
+      <td class="c3">30 Min GAV</td>
+       <td><input type="checkbox" class="Montants" id="propriété" value="20000">
+        <label for="propriété">Ajouter</label></td>
+    </tr>
+
+    <tr>
+      <td class="c1">Non assistance a personne en danger</td>
+      <td class="c2">20 000$</td>
+      <td class="c3">Dédommagement frais hôpital </td>
+       <td><input type="checkbox" class="Montants" id="assistance" value="20000">
+        <label for="assistance">Ajouter</label></td>
+    </tr>
+  </table>
+
+  <div class="Total" > Résultat : <span id="Total">0</span>
   </div>
+
+  <script>
+    const Montants = document.getElementsByClassName("Montants");
+    for (element of Montants) {
+      element.addEventListener("change", (event) => {
+        let Total = +document.getElementById("Total").innerHTML;
+        const value = +event.target.value;
+        Total = event.target.checked ? (Total + value) : (Total - value);
+        document.getElementById("Total").innerHTML = Total;
+      });
+    }
+    </script>
 
 </body>
 

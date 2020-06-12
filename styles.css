@@ -1,4 +1,14 @@
-.tftable {
+.tftable1 {
+  font-size: 12px;
+  color: #333;
+  width: 100%;
+  border-width: 1px;
+  border-color: #729ea5;
+  border-collapse: collapse;
+  
+}
+
+.tftable2 {
   font-size: 12px;
   color: #333;
   width: 100%;
@@ -7,11 +17,23 @@
   border-collapse: collapse;
 }
 
+.tftable3 {
+  font-size: 12px;
+  color: #333;
+  width: 100%;
+  border-width: 1px;
+  border-color: #729ea5;
+  border-collapse: collapse;
+}
+
+
+
+
 .tftable th {
-  font-size: 22px;
+  font-size: 18px;
   background-color: #acc8cc;
   border-width: 1px;
-  padding: 8px;
+  padding: 2px;
   border-style: solid;
   border-color: #729ea5;
   text-align: left;
@@ -22,9 +44,9 @@
 }
 
 .tftable td {
-  font-size: 16px;
+  font-size: 14px;
   border-width: 1px;
-  padding: 8px;
+  padding: 3px;
   border-style: solid;
   border-color: #729ea5;
 }
@@ -47,4 +69,11 @@
 
 .c4 {
   background-color: #d9d2e9;
+}
+
+.Total{
+  font-size: 20px;
+  margin-top: 2px;
+  border-style: solid;
+  border-width: 1px;
 }
