@@ -1,17 +1,16 @@
 .tftable1 {
   font-size: 12px;
   color: #333;
-  width: 100%;
+  width: 50%;
   border-width: 1px;
   border-color: #729ea5;
-  border-collapse: collapse;
-  
+  border-collapse: collapse; 
 }
 
 .tftable2 {
   font-size: 12px;
   color: #333;
-  width: 100%;
+  width: 50%;
   border-width: 1px;
   border-color: #729ea5;
   border-collapse: collapse;
@@ -20,7 +19,7 @@
 .tftable3 {
   font-size: 12px;
   color: #333;
-  width: 100%;
+  width: 50%;
   border-width: 1px;
   border-color: #729ea5;
   border-collapse: collapse;
@@ -41,14 +40,15 @@
 
 .tftable tr {
   background-color: #fff;
+  
 }
 
 .tftable td {
   font-size: 14px;
   border-width: 1px;
   padding: 3px;
-  border-style: solid;
-  border-color: #729ea5;
+  border-style: solid;  
+
 }
 
 .tftable tr:hover {
@@ -68,12 +68,17 @@
 }
 
 .c4 {
-  background-color: #d9d2e9;
+  background-color: #8685db;
 }
 
 .Total{
+  
+  padding: 50px;
   font-size: 20px;
   margin-top: 2px;
   border-style: solid;
   border-width: 1px;
+  position: fixed;
+  top: 10px;
+  left: 70%;
 }
