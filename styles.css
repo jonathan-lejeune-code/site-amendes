@@ -28,10 +28,17 @@
   margin-bottom: 20px;
 }
 
+.tftable4 {
+  font-size: 12px;
+  color: #333;
+  width: 65%;
+  border-width: 1px;
+  border-color: #729ea5;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
 
-
-
-.tftable1,.tftable2,.tftable3,th {
+.tftable1,.tftable2,.tftable3,.tftable4, th {
   font-size: 20px;
   background-color: #a4fcfc;
   border-width: 1px;
@@ -41,7 +48,7 @@
   text-align: left;
 }
 
-.tftable1,.tftable2,.tftable3,tr {
+.tftable1,.tftable2,.tftable3,.tftable4, tr {
   background-color: #fff;
   
 }
