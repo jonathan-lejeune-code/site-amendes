@@ -4,8 +4,8 @@
   width: 87%;
   border-width: 1px;
   border-color: #729ea5;
-  border-collapse: collapse; 
-  margin-bottom:10px;
+  border-collapse: collapse;
+  margin-bottom: 10px;
 }
 
 .tftable2 {
@@ -15,7 +15,7 @@
   border-width: 1px;
   border-color: #729ea5;
   border-collapse: collapse;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 .tftable3 {
@@ -25,7 +25,7 @@
   border-width: 1px;
   border-color: #729ea5;
   border-collapse: collapse;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 .tftable4 {
@@ -35,7 +35,7 @@
   border-width: 1px;
   border-color: #729ea5;
   border-collapse: collapse;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 .tftable5 {
@@ -45,7 +45,7 @@
   border-width: 1px;
   border-color: #729ea5;
   border-collapse: collapse;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 .tftable6 {
@@ -55,10 +55,16 @@
   border-width: 1px;
   border-color: #729ea5;
   border-collapse: collapse;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
-.tftable1,.tftable2,.tftable3,.tftable4,.tftable5,.tftable6, th {
+.tftable1,
+.tftable2,
+.tftable3,
+.tftable4,
+.tftable5,
+.tftable6,
+th {
   font-size: 20px;
   background-color: #a4fcfc;
   border-width: 1px;
@@ -68,16 +74,28 @@
   text-align: left;
 }
 
-.tftable1,.tftable2,.tftable3,.tftable4,.tftable5,.tftable6, tr {
+.tftable1,
+.tftable2,
+.tftable3,
+.tftable4,
+.tftable5,
+.tftable6,
+tr {
   background-color: #fff;
-  
+
 }
 
-.tftable1,.tftable2,.tftable3,.tftable4,.tftable5,.tftable6, td {
+.tftable1,
+.tftable2,
+.tftable3,
+.tftable4,
+.tftable5,
+.tftable6,
+td {
   font-size: 14px;
   border-width: 1px;
   padding: 3px;
-  border-style: solid;  
+  border-style: solid;
 
 }
 
@@ -109,7 +127,7 @@
   background-color: #7ecfe7;
 }
 
-.Total{
+.Total {
   padding: 30px;
   font-size: 20px;
   margin-top: 2px;
