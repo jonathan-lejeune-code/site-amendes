@@ -1,3 +1,4 @@
+//formule pour le résultat//
 const Montants = document.getElementsByClassName("Montants");
 for (element of Montants) {
   element.addEventListener("change", (event) => {
