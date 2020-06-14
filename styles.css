@@ -133,6 +133,19 @@ td {
   background-color: #7ecfe7;
 }
 
+/* bouton reset  */
+.btn,a {
+  width: 100px;
+  background-color: darkorange;
+  color: black;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  position: fixed;
+  top: 120px;
+  left: 87%;
+}
+
 /* cellules resultat */
 .Total {
   background-color: darkorange;
