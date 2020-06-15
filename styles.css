@@ -1,6 +1,6 @@
 
 /* dimension chaque tableau */
-.tftable1 {
+#tftable1 {
   font-size: 12px;
   color: #333;
   width: 87%;
@@ -10,7 +10,7 @@
   margin-bottom: 10px;
 }
 
-.tftable2 {
+#tftable2 {
   font-size: 12px;
   color: #333;
   width: 87%;
@@ -20,7 +20,7 @@
   margin-bottom: 10px;
 }
 
-.tftable3 {
+#tftable3 {
   font-size: 12px;
   color: #333;
   width: 87%;
@@ -30,7 +30,7 @@
   margin-bottom: 10px;
 }
 
-.tftable4 {
+#tftable4 {
   font-size: 12px;
   color: #333;
   width: 87%;
@@ -40,7 +40,7 @@
   margin-bottom: 10px;
 }
 
-.tftable5 {
+#tftable4b {
   font-size: 12px;
   color: #333;
   width: 87%;
@@ -50,7 +50,17 @@
   margin-bottom: 10px;
 }
 
-.tftable6 {
+#tftable5 {
+  font-size: 12px;
+  color: #333;
+  width: 87%;
+  border-width: 1px;
+  border-color: #729ea5;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+#tftable6 {
   font-size: 12px;
   color: #333;
   width: 87%;
@@ -65,6 +75,7 @@
 .tftable2,
 .tftable3,
 .tftable4,
+.tftable4b,
 .tftable5,
 .tftable6,
 th {
@@ -82,6 +93,7 @@ th {
 .tftable2,
 .tftable3,
 .tftable4,
+.tftable4b,
 .tftable5,
 .tftable6,
 tr {
@@ -94,6 +106,7 @@ tr {
 .tftable2,
 .tftable3,
 .tftable4,
+.tftable4b,
 .tftable5,
 .tftable6,
 td {
@@ -134,7 +147,7 @@ td {
 }
 
 /* bouton reset  */
-.btn,a {
+.btn,.btnr {
   width: 100px;
   background-color: darkorange;
   color: black;
@@ -144,6 +157,26 @@ td {
   position: fixed;
   top: 120px;
   left: 87%;
+}
+/* styles menu */
+.menu{
+  width: auto;
+  height: auto;
+  background-color: darkorange;
+  position: fixed;
+  top: 180px;
+  left: 87%;
+}
+
+.menu1,
+.menu2,
+.menu3,
+.menu4,
+.menu5,
+.menu6 {
+  color: black;
+
+
 }
 
 /* cellules resultat */
